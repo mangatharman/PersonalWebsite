@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="En" style="scroll-behavior: smooth">
+    <head>
+        <title>CSS Cheat Sheet</title>
+        <link rel = "stylesheet" href = "stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!--Navigation Bar-->
+        <div class = "nav">
+            <ul>
+                <li><a href = "index.html"> Home </a></li>
+                <li><a href = "htmlcheatsheet.html"> HTML CS</a></li>
+                <li><a href = "csscheatsheet.html"> CSS CS</a></li>
+                <li><a href="portfolio.html"> Portfolio </a></li>
+            </ul>
+        </div>
+
+        <!--Header-->
+        <div id = "header">
+            <h2>
+                CSS Cheat Sheet
+            </h2>
+        </div>
+
+        <!--Main text in the form of a table-->
+        <div class = "table">
+            <table>
+                <colgroup>
+                    <col span = "2">
+                </colgroup>
+                <tr>
+                    <th> Introduction </th>
+                    <th> Selectors </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>CSS stands for Cascading Style Sheets </li>
+                            <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                            <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                            <li>External stylesheets are stored in CSS files</li>
+                        </ul> 
+                        <p>For more information : <a href = "https://www.w3schools.com/css/css_intro.asp" target="_blank">Click here</a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Selector = #id, for example, #firstname, this would select the element with id = "#firstname" </li>
+                            <li> Selector = .class, for example, .intro, this would select all elements with class = "intro"</li>
+                            <li> Selector = element.class, for example, p.intro, this would only select the &ltp&gt elements with class = "intro"</li>
+                            <li>Selector = * , Selects all elements</li>
+                            <li>Selector = element, for example, p, this would all the elements within &ltp&gt</li>
+                            <li>Selector = element, element, for example, div, p, this would select all the elements within &ltdiv&gt and &ltp&gt</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_selectors.asp" target = "_blank"> Click here</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th> How to </th>
+                    <th> Backgrounds </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>With an external style sheet, you can change the look of an entire website by changing just one file!</li>
+                            <li>Each HTML page must include a reference to the external style sheet file inside the &ltlink&gt element, inside the head section. </li>
+                            <li>An internal style sheet may be used if one single HTML page has a unique style.</li>
+                            <li>The internal style is defined inside the &ltstyle&gt element, inside the head section.</li>
+                            <li>An inline style may be used to apply a unique style for a single element.</li>
+                            <li>To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.</li>
+                            <li>Inline style has the highest cascading order while on second comes the external and internal style sheets and at the end comes the browser default</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_howto.asp" target="_blank">Click here</a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>The CSS background properties are used to add background effects for elements.</li>
+                            <li>The background-color property specifies the background color of an element.</li>
+                            <li>The opacity property specifies the opacity/transparency of an element. </li>
+                            <li>The background-image property specifies an image to use as the background of an element.</li>
+                            <li>By default, the background-image property repeats an image both horizontally and vertically.</li>
+                            <li>Showing the background image only once is also specified by the background-repeat property</li>
+                            <li>The background-position property is used to specify the position of the background image.</li>
+                            <li>The background-attachment property specifies whether the background image should scroll or be fixed</li>
+                            <li>background-size	Specifies the size of the background image(s)</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_background.asp" target="_blank">Click here</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Borders </th>
+                    <th> Margins </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>The CSS border properties allow you to specify the style, width, and color of an element's border.</li>
+                            <li>dotted - Defines a dotted border</li>
+                            <li>dashed - Defines a dashed border</li>
+                            <li>solid - Defines a solid border</li>
+                            <li>double - Defines a double border</li>
+                            <li>groove - Defines a 3D grooved border. The effect depends on the border-color value</li>
+                            <li>ridge - Defines a 3D ridged border. The effect depends on the border-color value</li>
+                            <li>inset - Defines a 3D inset border. The effect depends on the border-color value</li>
+                            <li>outset - Defines a 3D outset border. The effect depends on the border-color value</li>
+                            <li>hidden - Defines a hidden border</li>
+                            <li>The border-width property specifies the width of the four borders. (top, right, bottom, left)</li>
+                            <li>The border-color property is used to set the color of the four borders.</li>
+                            <li>The border-radius property is used to add rounded borders to an element</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_border.asp" target="_blank"> Click here</a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Margins are used to create space around elements, outside of any defined borders.</li>
+                            <li>CSS has properties for specifying the margin for each side of an element: margin-top, margin-right, margin-bottom, margin-left</li>
+                            <li>auto - the browser calculates the margin</li>
+                            <li>length - specifies a margin in px, pt, cm, etc.</li>
+                            <li>% - specifies a margin in % of the width of the containing element</li>
+                            <li>inherit - specifies that the margin should be inherited from the parent element</li> 
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_margin.asp" target="_blank"> Click here</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Padding </th>
+                    <th> Colors </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Padding is used to create space around an element's content, inside of any defined borders.</li>
+                            <li>CSS has properties for specifying the padding for each side of an element: padding-top, padding-right, padding-bottom, padding-left</li>
+                            <li>length - specifies a padding in px, pt, cm, etc.</li>
+                            <li>% - specifies a padding in % of the width of the containing element</li>
+                            <li>inherit - specifies that the padding should be inherited from the parent element</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_padding.asp" target="_blank">Click here</a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>CSS colors are specified with predefined color names, or with RGB, HEX, HSL Values </li>
+                            <li> An RGB color value represents Red, Green and Blue light sources. For example, rgb(255, 0, 0) would display the color red</li>
+                            <li>An RGBA color value is an extension of RGB with an Alpha channel (opacity).</li>
+                            <li>A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.</li>
+                            <li>HSL stands for hue, saturation, and lightness. For example, hsl(240, 100%, 50%) would display the color Blue</li>
+                            <li>HSLA color values are an extension of HSL with an Alpha channel (opacity).</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_colors.asp" target="_blank"> Click here</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Height and Width </th>
+                    <th> Text </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>The CSS height and width properties are used to set the height and width of an element.</li>
+                            <li>The CSS max-width property is used to set the maximum width of an element.</li>
+                            <li> auto - This is default. The browser calculates the height and width</li>
+                            <li>length - Defines the height/width in px, cm etc. </li>
+                            <li>% - Defines the height/width in percent of the containing block</li>
+                            <li>initial - Sets the height/width to its default value</li>
+                            <li>inherit - The height/width will be inherited from its parent value</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_dimension.asp" target="_blank"> Click here</a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>CSS has a lot of properties for formatting text.</li>
+                            <li>The color property is used to set the color of the text</li>
+                            <li>The text-align property is used to set the horizontal alignment of a text.</li>
+                            <li>The vertical-align property sets the vertical alignment of an element.</li>
+                            <li>The text-decoration property is used to set or remove decorations from text.</li>
+                            <li>The text-transform property is used to specify uppercase and lowercase letters in a text.</li>
+                            <li>Text-transform can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word</li>
+                            <li>The text-indent property is used to specify the indentation of the first line of a text</li>
+                            <li>The letter-spacing property is used to specify the space between the characters in a text.</li>
+                            <li>The line-height property is used to specify the space between lines </li>
+                            <li>The word-spacing property is used to specify the space between the words in a text</li>   
+                            <li>The white-space property specifies how white-space inside an element is handled.</li> 
+                            <li>The text-shadow property adds shadow to text.</li>    
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_text.asp" target="_blank"> Click here</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Fonts </th>
+                    <th> Links </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>font-family property to specify the font of a text.</li>
+                            <li>The font-style property is mostly used to specify italic text.</li>
+                            <li>The font-weight property specifies the weight of a font</li>
+                            <li>The font-variant property specifies whether or not a text should be displayed in a small-caps font.</li>
+                            <li>The font-size property sets the size of the text.</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_font.asp" target="_blank"> Click here </a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Links can be styled with any CSS property (e.g. color, font-family, background, etc.).</li>
+                            <li>a:link - a normal, unvisited link</li>
+                            <li>a:visited - a link the user has visited</li>
+                            <li>a:hover - a link when the user mouses over it</li>
+                            <li>a:active - a link the moment it is clicked</li>
+                            <li>The background-color property can be used to specify a background color for links</li>
+                        </ul> 
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_link.asp" target="_blank"> Click here </a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Tables </th>
+                    <th> Position </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>To specify table borders in CSS, use the border property.</li>
+                            <li>If you need a table that should span the entire screen (full-width), add width: 100% to the &lttable&gt element</li>
+                            <li>The border-collapse property sets whether the table borders should be collapsed into a single border</li>
+                            <li>The width and height of a table are defined by the width and height properties.</li>
+                            <li>The text-align property sets the horizontal alignment (like left, right, or center) of the content</li>
+                            <li>The vertical-align property sets the vertical alignment (like top, bottom, or middle) of the content</li>
+                            <li>To control the space between the border and the content in a table, use the padding property</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_table.asp" target="_blank"> Click here </a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).</li>
+                            <li>There are five different position values: static, relative, fixed, absolute, sticky</li>
+                            <li>HTML elements are positioned static by default. Static positioned elements are not affected by the top, bottom, left, and right properties.</li>
+                            <li>An element with position: relative; is positioned relative to its normal position.</li>
+                            <li>An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled.</li>
+                            <li>The top, right, bottom, and left properties are used to position the element.</li>
+                            <li>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).</li>
+                            <li>An element with position: sticky; is positioned based on the user's scroll position.</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/css/css_positioning.asp" target="_blank"> Click here </a></p>
+                    </td>
+                </tr>
+             
+            </table>
+        </div>
+
+        <!--Reference for the cheat sheet-->
+        <div id = "reference">
+            <p> 
+                The information provided on this webpage has been taken from w3schools. If you want to find more information about CSS then you may 
+                vist the site <a href = "https://www.w3schools.com/css/default.asp" target = "_blank"> w3schools </a>
+            </p>
+        </div>
+
+        <!--Footer-->
+        <div class = "footer">
+            <p>
+                This website has been made by <span>Harman Mangat</span> for the Personal Website project of the course <br><span>TECH1101: Web and Internet Fundamentals</span><br><br>
+                You may reach me at my Email<a href = "mailto: harmanmangat030@gmail.com"> harmanmangat030@gmail.com </a>
+                <br><br>
+                OR
+                <br><br>
+                <a href = "https://www.facebook.com/harman.mangat.0/" target="_blank">Facebook</a>
+                <a href = "https://twitter.com/HarmanMangat0" target="_blank">Twitter</a>
+                <a href = "https://www.instagram.com/_harmanmangat/" target="_blank">Instagram</a>
+                <a href = "https://www.linkedin.com/in/harmanmangat08/" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+
+        <!--Botton to scroll to the top of the table-->
+        <div class = "Button">
+            <button onClick = "topFunc()" id = "topButton" title = "Go to top">Top</button>
+        </div>
+
+        <script src = "script.js"></script>
+
+    </body>
+</html>

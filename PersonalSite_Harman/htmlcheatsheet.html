@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="En" style="scroll-behavior: smooth">
+    <head>
+        <title>HTML Cheat Sheet</title>
+        <link rel = "stylesheet" href = "stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <!--Navigation Bar-->
+    <body>
+        <div class = "nav">
+            <ul>
+                <li><a href = "index.html"> Home </a></li>
+                <li><a href = "htmlcheatsheet.html"> HTML CS</a></li>
+                <li><a href = "csscheatsheet.html"> CSS CS</a></li>
+                <li><a href="portfolio.html"> Portfolio </a></li>
+            </ul>
+        </div>
+
+        <!--Header-->
+        <div id = "header">
+            <h2>
+                HTML Cheat Sheet
+            </h2>
+        </div>
+
+        <!--Main text in the form of a table-->
+        <div class = "table">
+            <table>
+                <colgroup>
+                    <col span = "2"> 
+                </colgroup>
+                <tr>
+                    <th> Introduction </th>
+                    <th> Basics </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>&lthtml&gt = Root element of HTML Page </li>
+                            <li>&lthead&gt = Contains meta information about the HTML Page</li>
+                            <li>&lttitle&gt = Specifies a title for the HTML Page</li>
+                            <li>&ltbody&gt = Is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+                            <li>&lth1&gt = Defines a large heading</li>
+                            <li>&ltp&gt = Defines a paragraph</li>
+                        </ul> 
+                        <p>  For more information: <a href = "https://www.w3schools.com/html/html_intro.asp" target="_blank"> Click here </a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Headings are defined with the &lth1&gt to &lth6&gt tags. &lth1&gt defines the most important heading while &lth6&gt defines the least important heading </li>
+                            <li> Links are defined with the &lta&gt tag</li>
+                            <li> Images are defined with the &ltimg&gt tag</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_basic.asp" target = "_blank"> Click here</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Elements </th>
+                    <th> Attributes </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>The HTML element is everything from the start tag to the end tag</li>
+                            <li>HTML elements can be nested. For example, using &ltbody&gt tag inside the &lthtml&gt tag and using &ltp&gt and &lth1&gt inside the &ltbody&gt tag </li>
+                            <li>Never skip the end tags</li>
+                            <li>Some elements don't have an end tag. For example, &ltbr&gt defines a line break and it does not have an end tag</li>
+                            <li>HTML is not case sensitive. For example, &ltp&gt means the same as &ltP&gt</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_elements.asp" target="_blank">Click here</a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>Attributes provide additional information about the elements</li>
+                            <li>Attributes are always specified in the start tag</li>
+                            <li>The href attribute in the &lta&gt tag specifies the URL of the page the link goes to</li>
+                            <li>The src attribute in the &ltimg&gt tag specifies the path to the image to be displayed</li>
+                            <li>The width and height attribute in the &ltimg&gt tag specifies the width and height of the image</li>
+                            <li>The style attribute is used to add style such as color, font, size, and more</li>
+                            <li>The lang attribute declares the language of the web page</li>
+                            <li>The title attribute defines some extra information about an element</li>
+                            <li>Always use lowercase attributes and always quote attribute values</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_attributes.asp" target="_blank">Click here</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Styles </th>
+                    <th> Text Formatting </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Style attribute is used for styling HTML elements</li>
+                            <li>Use background-color to change the background color of a HTML page or a paragraph or anything</li>
+                            <li>Use color to change the color of the text</li>
+                            <li>Use font-family to change the font of the text</li>
+                            <li>Use font-size to change the size of the text</li>
+                            <li>Use text-align for the horizontal text alignment</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_styles.asp" target="_blank"> Click here</a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>&ltb&gt = Defines bold text</li>
+                            <li>&ltem&gt = Defines emphasized text</li>
+                            <li>&lti&gt = Defines text in an alternate voice or mood</li>
+                            <li>&ltsmall&gt = Defines smaller text</li>
+                            <li>&ltstrong&gt = Defines important text</li>
+                            <li>&ltsub&gt = Defines subscripted text</li>
+                            <li>&ltsup&gt = Defines superscripted text</li>
+                            <li>&ltins&gt = Defines inserted text</li>
+                            <li>&ltdel&gt = Defines deleted text</li>
+                            <li>&ltmark&gt = Defines marked/highlighted text</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_formatting.asp" target="_blank"> Click here</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Quotations </th>
+                    <th> Colors </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>&ltabbr&gt = Defines an abbreviation or acronym</li>
+                            <li>&ltaddress&gt = Defines contact information for the author/owner of a document</li>
+                            <li>&ltbdo&gt = Defines the text direction</li>
+                            <li>&ltblockquote&gt = Defines a section that is quoted from another source</li>
+                            <li>&ltcite&gt = Defines the title of a work</li>
+                            <li>&ltq&gt = Defines a short inline quotation </li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_quotation_elements.asp" target="_blank">Click here</a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>HTML colors are specified with predefined color names, or with RGB, HEX, HSL Values </li>
+                            <li> An RGB color value represents Red, Green and Blue light sources. For example, rgb(255, 0, 0) would display the color red</li>
+                            <li>An RGBA color value is an extension of RGB with an Alpha channel (opacity).</li>
+                            <li>A hexadecimal color is specified with: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color.</li>
+                            <li>HSL stands for hue, saturation, and lightness. For example, hsl(240, 100%, 50%) would display the color Blue</li>
+                            <li>HSLA color values are an extension of HSL with an Alpha channel (opacity).</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_colors.asp" target="_blank"> Click here</a></p>
+                    </td>
+                </tr>    
+                <tr>
+                    <th> HTML CSS </th>
+                    <th> Links </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>Use the HTML style attribute for inline styling</li>
+                            <li>Use the HTML &ltstyle&gt element to define internal CSS</li>
+                            <li> Use the HTML &ltlink&gt element to refer to an external CSS file</li>
+                            <li> Use the HTML &lthead&gt element to store &ltstyle&gt and &ltlink&gt elements </li>
+                        </ul> 
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_css.asp" target="_blank"> Click here</a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>The target attribute specifies where to open the linked document</li>
+                            <li>_self = Default. Opens the document in the same window</li>
+                            <li>_blank = Opens the document in a new window</li>
+                            <li>_parent = Opens the document in the parent frame</li>
+                            <li>_top = Opens the document in the full body of the window</li>
+                            <li>Absolute URL = A full web address in the href attribute</li>
+                            <li>Relative URL = A link to a page within the same website</li>
+                            <li>Put the &ltimg&gt tag in the &lta&gt tag to use an image as a link</li>
+                            <li>Use mailto: inside the href attribute to create a link that opens the user's email program </li>
+                            <li>To use HTML button as a link, we need to use some JavaScript code</li>        
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_links.asp" target="_blank"> Click here</a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Images </th>
+                    <th> Tables </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>&ltimg&gt is an open tag and it does not require a closing tag</li>
+                            <li>Use src attribute to define the URL of an image</li>
+                            <li>Use alt attribute to define an alternate text for an image</li>
+                            <li>Use the CSS float property to let the image float to the left or to the right</li>
+                            <li>&ltmap&gt = Defines an image map</li>
+                            <li>&ltarea&gt = Defines a clickable area inside an image map</li>
+                            <li>&ltpicture&gt = Defines a container for multiple image resources</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_images.asp" target="_blank"> Click here </a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>&lttable&gt = Defines a HTML Table</li>
+                            <li>&lttr&gt = Table Row</li>
+                            <li>&ltth&gt = Table header</li>
+                            <li>&lttd&gt = Table cell/data</li>
+                            <li>&ltcaption&gt = Table Caption</li>
+                            <li>Use the CSS border property to define a border, CSS border-collapse property to collapse cell borders</li>
+                            <li>Use the CSS padding property to add padding to cells, CSS text-align property to align cell text</li>
+                            <li> Use the CSS border-spacing property to set the spacing between cells</li>
+                            <li>Use the colspan attribute to make a cell span many columns, Use the rowspan attribute to make a cell span many rows, Use the id attribute to uniquely define one table</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_tables.asp" target="_blank"> Click here </a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Lists </th>
+                    <th> Block and Inline </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>&ltul&gt = Defines an unordered List</li>
+                            <li>&ltol&gt = Defines an ordered List</li>
+                            <li>&ltli&gt = Defines a list item</li>
+                            <li>&ltdl&gt = Defines a description list</li>
+                            <li>&ltdt&gt = Defines a term in a description list</li>
+                            <li>&ltdd&gt = Describes the term in a description list</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_lists.asp" target="_blank"> Click here </a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>A block-level element always starts on a new line and takes up the full width available</li>
+                            <li>An inline element does not start on a new line and it only takes up as much width as necessary</li>
+                            <li>The &ltdiv&gt defines a section in a document (block-level)</li>
+                            <li>The &ltspan&gt defienes a section in a document (inline)</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_blocks.asp" target="_blank"> Click here </a></p>
+                    </td>
+                </tr>
+                <tr>
+                    <th> Classes </th>
+                    <th> ID </th>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>The HTML class attribute specifies one or more class names for an element</li>
+                            <li>Classes are used by CSS and JavaScript to select and access specific elements</li>
+                            <li>The class attribute can be used on any HTML element</li>
+                            <li>The class name is case sensitive</li>
+                            <li>Different HTML elements can point to the same class name</li>
+                            <li>JavaScript can access elements with a specific class name with the getElementsByClassName() method</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_classes.asp" target="_blank"> Click here </a></p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>The id attribute is used to specify a unique id for an HTML element</li>
+                            <li>The value of the id attribute must be unique within the HTML document</li>
+                            <li>The id attribute is used by CSS and JavaScript to style/select a specific element</li>
+                            <li>The value of the id attribute is case sensitive</li>
+                            <li>The id attribute is also used to create HTML bookmarks</li>
+                            <li>JavaScript can access an element with a specific id with the getElementById() method</li>
+                        </ul>
+                        <p>For more information: <a href = "https://www.w3schools.com/html/html_id.asp" target="_blank"> Click here </a></p>
+                    </td>
+                </tr>     
+            </table>
+        </div>
+
+        <!--Reference for the cheat sheet-->
+        <div id = "reference">
+            <p> 
+                The information provided on this webpage has been taken from w3schools. If you want to find more information about HTML then you may 
+                vist the site <a href = "https://www.w3schools.com/html/default.asp" target = "_blank"> w3schools </a>
+            </p>
+        </div>
+
+        <!--Footer-->
+        <div class = "footer">
+            <p>
+                This website has been made by <span>Harman Mangat</span> for the Personal Website project of the course <br><span>TECH1101: Web and Internet Fundamentals</span><br><br>
+                You may reach me at my Email<a href = "mailto: harmanmangat030@gmail.com"> harmanmangat030@gmail.com </a>
+                <br><br>
+                OR
+                <br><br>
+                <a href = "https://www.facebook.com/harman.mangat.0/" target="_blank">Facebook</a>
+                <a href = "https://twitter.com/HarmanMangat0" target="_blank">Twitter</a>
+                <a href = "https://www.instagram.com/_harmanmangat/" target="_blank">Instagram</a>
+                <a href = "https://www.linkedin.com/in/harmanmangat08/" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+
+        <!--Button to scroll to the top of the page-->
+        <div class = "Button">
+            <button onClick = "topFunc()" id = "topButton" title = "Go to top">Top</button>
+        </div>
+
+        <script src = "script.js"></script>
+
+    </body>
+</html>
